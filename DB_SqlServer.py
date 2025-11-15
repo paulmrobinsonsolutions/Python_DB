@@ -1,4 +1,5 @@
-#cmd> py -m pip install pyodbc
+# python -m pip install pyodbc
+# python -m pip install --upgrade pip
 import pyodbc
 from DB_Constants import *
 
@@ -10,6 +11,11 @@ class DbClass(object):
     pass
 
 def main():
+    '''
+    base: Simple database connection and query example
+ 
+    returns: Name of all system tables in the specified database
+    '''
 
     print()
     print("Let's get it started in here!")

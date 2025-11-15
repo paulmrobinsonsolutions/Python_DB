@@ -11,6 +11,11 @@ class my_class(object):
     pass
 
 def main():
+    '''
+    base: Generic, and fun, in-memory SQLite3 database with basic try/catch example
+ 
+    returns: General lists of data
+    '''
 
     db = None
     cur = None
